@@ -1,8 +1,8 @@
 **ABOUT US**
-Sayfasına ekibin isimlerini mail adreslerini görsellerini ve linkedin hesaplarını ekleyeceğim.
+✅Sayfasına ekibin isimlerini mail adreslerini görsellerini ve linkedin hesaplarını ekleyeceğim.
 
 **PROJECT REPO**
-Projenin bulunduğu github reposunun adresini vereceğim.
+✅Projenin bulunduğu github reposunun adresini vereceğim.
 
 **FOOTER**
 Projeye Footer eklenmeli. Ekipteki arkadaşlara bırakıyorum
@@ -11,16 +11,16 @@ Projeye Footer eklenmeli. Ekipteki arkadaşlara bırakıyorum
 Beğenilen logo tasarımını projeye ekleyeceğim.
 
 **CATEGORİES**
-Search altına hr ile çizgi çekip butonlar ile kategoriler oluşturabilirim.
+✅Search altına hr ile çizgi çekip butonlar ile kategoriler oluşturabilirim.
 
 **Slider**
 Projeye Slider eklemesi yapılmalı. Sayfa ilk açıldığında slider yapısı ile karşılaşılmalı.
 
 **SEARCH**
-Search butonunu account.html deki gibi özelleştirebilirim.
+✅Search butonunu account.html deki gibi özelleştirebilirim.
 
 **CARDS**
-Anasayfaya daha fazla kart eklemeliyim.
+✅Anasayfaya daha fazla kart eklemeliyim.
 İçerikleri ekipteki arkadaşlar düzenleyecek.
 Her kartın sonuna daha fazla butonu koyarak ilgili makalenin farklı bir sayfada tamamen gösterimini sağlayabilirim.
 
@@ -28,7 +28,7 @@ Her kartın sonuna daha fazla butonu koyarak ilgili makalenin farklı bir sayfad
 Scroll Bar'ı kaldıracağım.
 
 **PUSH**
-Kafamdaki yapıyı bitirmeye yakın github'a pushlayıp diğer arkadaşların da son dokunuşlarını yapsam iyi olacak
+✅Kafamdaki yapıyı bitirmeye yakın github'a pushlayıp diğer arkadaşların da son dokunuşlarını yapsam iyi olacak
 
 **README.md**
 Son olarak projenin geliştirilme amacını ve hangi fikirden ortaya çıktığını anlatan bir dokümantasyon hazırlayıp Readme.md klasörü altında paylaşmalıyız.
