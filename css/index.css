@@ -1,0 +1,125 @@
+.navbar {
+    font-size: 1.1rem; /* Navbar linklerinin boyutu */
+}
+.navbar-nav .nav-item:not(:last-child) .nav-link {
+    margin-right: 20px; /* Aralık miktarını ihtiyaca göre ayarla */
+}
+.navbar-collapse{
+    flex-grow: 0.5 !important; /* Linklerin boş alan almasını engeller */
+}
+.navbar-brand, .nav-link {
+    font-weight: bold; /* Kalın font */
+    margin: 18px;
+}
+.nav-link:hover {
+    color: #FF6500 !important; /* Açık turuncu */
+}
+.active, span {
+    color: #FF6500 !important;
+}
+
+/* Content */
+.card {
+    width: 90%; /* Kartın genişliği */
+    margin-bottom: 20px; /* Kartlar arası boşluk */
+}
+.card-img-top {
+    height: 300px; /* Resmin yüksekliği */
+    object-fit: cover; /* Resmin uygun şekilde kesilmesini sağlar */
+}
+.card-body {
+    padding: 35px; /* İçerik kenar boşluğu */
+    text-align: left; /* Metinleri sola hizala */
+}
+.category {
+    font-weight: bold; /* Kategori başlığını kalın yap */
+    margin-bottom: 10px; /* Kategori ve blog başlığı arasında boşluk */
+}
+.tags, .social-icons {
+    display: flex;
+    justify-content: space-between; /* İkonları yan yana ve aynı hizada yerleştir */
+    margin-top: 15px; /* Üstten boşluk */
+}
+.tags span, .social-icons a {
+    margin-right: 10px; /* İkonlar arasındaki boşluk */
+}
+
+/* Search */
+.search-container {
+    max-width: 500px;
+}
+
+/* Arama Kutusu */
+.input-group {
+    border-radius: 3px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.input-group-text {
+    border: 0px;
+}
+
+/* Arama Alanı */
+.form-control {
+    border: none;
+    border-radius: 0;
+    padding: 14px 20px;
+    font-size: 1rem;
+}
+
+/* Categories */
+.categories-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #d4d0d0;
+    max-width: 400px;
+    padding-top: 15px;
+}
+.category-list li {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.category-list a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.category-list a:hover {
+    color: #ff7f00; /* Turuncu renk */
+}
+
+.custom-category-list {
+    border-top: 1px solid #d4d0d0;
+    display: flex; /* Yana yana dizilmesi için flexbox kullan */
+    flex-wrap: wrap; /* Sığmayan butonların alt satıra geçmesi için */
+    padding: 15px 0px 0px 0px; /* Varsayılan padding kaldır */
+    list-style: none; /* Liste işaretlerini kaldır */
+}
+
+.custom-category-list li {
+    margin-right: 10px; /* Butonlar arasındaki boşluk */
+    margin-bottom: 10px; /* Alt satıra geçince boşluk */
+}
+
+.custom-category-button {
+    background-color: white; /* Turuncu renk */
+    color: #d4d0d0; /* Yazı rengi beyaz */
+    border: 1px solid #d4d0d0;
+    font-weight: bold;
+    border-radius: 2px; /* Kenar yuvarlama */
+    padding: 10px 15px; /* İçerik için boşluk */
+    cursor: pointer; /* İmleç değişimi */
+    transition: background-color 0.3s; /* Renk geçişi */
+}
+
+.custom-category-button:hover {
+    color: white;
+    background-color: #FF6500; /* Hover durumunda daha koyu turuncu */
+}
+

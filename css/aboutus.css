@@ -1,0 +1,62 @@
+/* Genel Stil Ayarları */
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #ff7f00;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #ff7f00;
+}
+
+.card-title {
+    color: #ff7f00;
+    font-weight: bold;
+}
+
+.job-title {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #e67300;
+}
+
+/* Navbar */
+.navbar {
+    font-size: 1.1rem; /* Navbar linklerinin boyutu */
+}
+.navbar-nav .nav-item:not(:last-child) .nav-link {
+    margin-right: 20px; /* Aralık miktarını ihtiyaca göre ayarla */
+}
+.navbar-collapse{
+    flex-grow: 0.5 !important; /* Linklerin boş alan almasını engeller */
+}
+.navbar-brand, .nav-link {
+    font-weight: bold; /* Kalın font */
+    margin: 18px;
+}
+.nav-link:hover {
+    color: #FF6500 !important; /* Açık turuncu */
+}
+.active, span {
+    color: #FF6500 !important;
+}

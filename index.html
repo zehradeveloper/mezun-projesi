@@ -7,14 +7,14 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Font Awesome -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <!-- Navbar Başlangıcı -->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
             <!-- Logo veya Başlık -->
-            <a class="navbar-brand" href="#"> <span> FOREVER </span> BLOG </a>
+            <a class="navbar-brand" href="index.html"> <span> FOREVER </span> BLOG </a>
             <!-- Hamburger Menü (Mobilde Görünür) -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto gap-3">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">HOME</a>
+						<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">ABOUT US</a>
+						<a class="nav-link" href="aboutus.html">ABOUT US</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">PROJECT REPO</a>
+						<a class="nav-link" href="https://github.com/yusufaytasss/mezun-projesi" target="_blank">PROJECT REPO</a>
 					</li>
 				</ul>
 				
@@ -49,7 +49,7 @@
 	<!-- Cards -->
 	<div class="container mt-4">
         <div class="row">
-            <!-- Kart için 10 parça genişliğinde kolon -->
+            <!-- Kart için 8 parça genişliğinde kolon -->
             <div class="col-md-8">
                 <div class="card">
                     <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
@@ -73,10 +73,92 @@
                     </div>
                 </div>
             </div>
-            <!-- Arama kutusu için 2 parça genişliğinde kolon -->
-            <div class="col-md-3">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control w-100" placeholder="Arama yap..." aria-label="Arama">
+            <!-- Arama kutusu ve Kategoriler için tek kolon -->
+            <div class="col-md-4">
+                <!-- Arama Kutusu -->
+                <div class="search-container mb-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="TYPE TO SEARCH..." aria-label="Search">
+                        <span class="input-group-text bg-white"><i class="fas fa-search text-muted"></i></span>
+                    </div>
+                </div>
+                <!-- Categories -->
+                <p class="categories-title mt-5">CATEGORIES</p>  
+                <ul class="category-list">
+                    <li><a href="#">- Nature Lifestyle</a></li>
+                    <li><a href="#">- Awesome Layouts</a></li>
+                    <li><a href="#">- Creative Ideas</a></li>
+                    <li><a href="#">- Responsive Templates</a></li>
+                    <li><a href="#">- HTML5 / CSS3 Templates</a></li>
+                    <li><a href="#">- Creative & Unique</a></li>
+                </ul>
+                <!-- Tag Clouds -->
+                <p class="categories-title mt-5">TAG CLOUDS</p>
+                <ul class="custom-category-list">
+                    <li><button class="custom-category-button">Big Data</button></li>
+                    <li><button class="custom-category-button">Cybersecurity</button></li>
+                    <li><button class="custom-category-button">Mobile Apps</button></li>
+                    <li><button class="custom-category-button">Startups</button></li>
+                    <li><button class="custom-category-button">Open Source</button></li>
+                    <li><button class="custom-category-button">Blockchain</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Kart için 8 parça genişliğinde kolon -->
+            <div class="col-md-8">
+                <div class="card">
+                    <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Blog Başlığı</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum ipsam libero perferendis minima autem harum excepturi, commodi cum laudantium voluptate magni praesentium in sint, facere voluptatem dolorum explicabo. In sapiente perspiciatis, vel a voluptatum mollitia accusantium repellendus excepturi ipsum, omnis deserunt quaerat voluptates quia ad vitae.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+							<div class="d-flex align-items-center">
+								<span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+								<span class="me-3">Teknoloji, Bilim</span>
+							</div>
+							<div class="d-flex align-items-center">
+								<span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+								<span>Instagram, Twitter</span>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Kart için 8 parça genişliğinde kolon -->
+            <div class="col-md-8">
+                <div class="card">
+                    <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Blog Başlığı</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum ipsam libero perferendis minima autem harum excepturi, commodi cum laudantium voluptate magni praesentium in sint, facere voluptatem dolorum explicabo. In sapiente perspiciatis, vel a voluptatum mollitia accusantium repellendus excepturi ipsum, omnis deserunt quaerat voluptates quia ad vitae.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+							<div class="d-flex align-items-center">
+								<span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+								<span class="me-3">Teknoloji, Bilim</span>
+							</div>
+							<div class="d-flex align-items-center">
+								<span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+								<span>Instagram, Twitter</span>
+							</div>
+						</div>
+                    </div>
                 </div>
             </div>
         </div>
