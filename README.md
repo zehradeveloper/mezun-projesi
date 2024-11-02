@@ -59,6 +59,7 @@
 ✅Blog yazılarının tamamının gösterimi için örnek bir blog sayfa tasarımı yap.
 
 **EXTRA**
+
 🟧Projenin bazı yerleri türkçe bazı yerleri ingilizce oldu. Bunu düzeltmek adına istediğiniz dili seçip bütün projeyi o dile uygun şekilde düzenlemeniz gerekiyor.
 
 **DEADLİNE**
