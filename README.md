@@ -17,9 +17,10 @@
 **CATEGORİES**
 
 ✅Search altına hr ile çizgi çekip butonlar ile kategoriler oluşturabilirim.
-Kategori kısmını hazırlanan içeriğie göre değiştir. (5-minutes)
+✅Kategori kısmını hazırlanan içeriğie göre değiştir. (5-minutes)
 
 **TAG CLOUDS**
+
 ✅Proje konseptine uygun etiketler oluşturup eklemeliyim.
 
 **Slider**
@@ -47,7 +48,14 @@ Kategori kısmını hazırlanan içeriğie göre değiştir. (5-minutes)
 
 **README.md**
 
-Son olarak projenin geliştirilme amacını ve hangi fikirden ortaya çıktığını anlatan bir dokümantasyon hazırlayıp Readme.md klasörü altında paylaşmalıyız.
+🟧Son olarak projenin geliştirilme amacını ve hangi fikirden ortaya çıktığını anlatan bir dokümantasyon hazırlayıp Readme.md klasörü altında paylaşmalıyız.
+
+**BLOG PAGE**
+
+✅Blog yazılarının tamamının gösterimi için örnek bir blog sayfa tasarımı yap.
+
+**EXTRA**
+🟧Projenin bazı yerleri türkçe bazı yerleri ingilizce oldu. Bunu düzeltmek adına istediğiniz dili seçip bütün projeyi o dile uygun şekilde düzenlemeniz gerekiyor.
 
 **DEADLİNE**
 
