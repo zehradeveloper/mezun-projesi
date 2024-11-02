@@ -17,6 +17,7 @@
 **CATEGORİES**
 
 ✅Search altına hr ile çizgi çekip butonlar ile kategoriler oluşturabilirim.
+
 ✅Kategori kısmını hazırlanan içeriğie göre değiştir. (5-minutes)
 
 **TAG CLOUDS**
@@ -34,8 +35,11 @@
 **CARDS**
 
 ✅Anasayfaya daha fazla kart eklemeliyim.
+
 🟧İçerikleri ekipteki arkadaşlar düzenleyecek.
+
 ✅Her kartın sonuna daha fazla butonu koyarak ilgili makalenin farklı bir sayfada tamamen gösterimini sağlayabilirim.
+
 ✅Büyük kartların altına küçük kartlar ekleyebilirim. (9 Farklı içerik var)
 
 **SCROLL BAR**
