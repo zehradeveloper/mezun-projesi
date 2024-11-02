@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Detail</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <!-- Navbar Başlangıcı -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <!-- Logo veya Başlık -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="logo" width="60">
+            </a>
+            <!-- Hamburger Menü (Mobilde Görünür) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Menüsü -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-3">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutus.html">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/yusufaytasss/mezun-projesi" target="_blank">PROJECT REPO</a>
+					</li>
+				</ul>
+				
+                <!-- Profil Simgesi veya Buton -->
+                <ul class="navbar-nav gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            <i class="bi bi-person-circle"></i> Account
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Bitişi -->
+
+    <div class="container mt-4">
+        <div class="post-container">
+            <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="img-fluid" alt="Blog Post Image">
+            <div class="category mt-3">DİJİTAL</div>
+            <h1 class="post-title">Blog Başlığı</h1>
+            <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+            <hr>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum ipsam libero perferendis minima autem harum excepturi, commodi cum laudantium voluptate magni praesentium in sint, facere voluptatem dolorum explicabo. In sapiente perspiciatis, vel a voluptatum mollitia accusantium repellendus excepturi ipsum, omnis deserunt quaerat voluptates quia ad vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquam voluptatibus perferendis, aut reiciendis doloremque commodi, atque laborum, iure blanditiis repellat quas ipsa eveniet? Ab veritatis cum, consectetur repudiandae optio accusantium.</p>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center color-orange">
+                <div class="d-flex align-items-center">
+                    <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                    <span class="me-3">Teknoloji, Bilim</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                    <span>Instagram, Twitter</span>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Yorumlar -->
+            <h5 class="mt-4">Yorumlar</h5>
+            <div class="comment">
+                <div class="comment-header">
+                    <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User Avatar">
+                    <div>
+                        <strong>Ali Yılmaz</strong>
+                        <div class="comment-date">May 31, 2020</div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget enim sit amet quam accumsan tincidunt.</p>
+            </div>
+            <div class="comment">
+                <div class="comment-header">
+                    <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="User Avatar">
+                    <div>
+                        <strong>Aylin Demir</strong>
+                        <div class="comment-date">June 1, 2020</div>
+                    </div>
+                </div>
+                <p>Curabitur luctus lectus a nisi convallis, ut hendrerit ligula consectetur. Aenean eget justo vitae libero.</p>
+            </div>
+            <div class="comment">
+                <div class="comment-header">
+                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="User Avatar">
+                    <div>
+                        <strong>Mehmet Öztürk</strong>
+                        <div class="comment-date">June 2, 2020</div>
+                    </div>
+                </div>
+                <p>Sed euismod neque ac magna fermentum, in pharetra arcu pulvinar. Sed auctor, orci at aliquam sollicitudin.</p>
+            </div>
+
+            <!-- Yeni Yorum Formu -->
+            <div class="comment-form">
+                <h5>Yeni Yorum Yaz</h5>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">İsim</label>
+                        <input type="text" class="form-control" id="name" placeholder="İsminizi girin" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-posta</label>
+                        <input type="email" class="form-control" id="email" placeholder="E-postanızı girin" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Konu</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Konu girin" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Yorum</label>
+                        <textarea class="form-control" id="comment" rows="3" placeholder="Yorumunuzu yazın" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-orange w-100">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</body>
+</html>

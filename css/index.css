@@ -1,3 +1,12 @@
+/* Scroll Bar */
+body {
+    overflow-y: scroll; /* Kaydırma işlevi aktif */
+}
+body::-webkit-scrollbar {
+    width: 0; /* Scroll bar genişliğini sıfır yap */
+    display: none; /* Görünmez yap */
+}
+
 .navbar {
     font-size: 1.1rem; /* Navbar linklerinin boyutu */
 }
@@ -123,3 +132,8 @@
     background-color: #FF6500; /* Hover durumunda daha koyu turuncu */
 }
 
+/* More Button */
+.btn-orange {
+    background-color: #ff7f00;
+    color: white;
+}
