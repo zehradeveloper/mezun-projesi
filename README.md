@@ -8,19 +8,23 @@
 
 **FOOTER**
 
-Projeye Footer eklenmeli. Ekipteki arkadaşlara bırakıyorum
+✅Projeye Footer eklenmeli. Ekipteki arkadaşlara bırakıyorum
 
 **LOGO**
 
-Beğenilen logo tasarımını projeye ekleyeceğim.
+✅Beğenilen logo tasarımını projeye ekleyeceğim.
 
 **CATEGORİES**
 
 ✅Search altına hr ile çizgi çekip butonlar ile kategoriler oluşturabilirim.
+Kategori kısmını hazırlanan içeriğie göre değiştir. (5-minutes)
+
+**TAG CLOUDS**
+✅Proje konseptine uygun etiketler oluşturup eklemeliyim.
 
 **Slider**
 
-Projeye Slider eklemesi yapılmalı. Sayfa ilk açıldığında slider yapısı ile karşılaşılmalı.
+🟧Projeye Slider eklemesi yapılmalı. Sayfa ilk açıldığında slider yapısı ile karşılaşılmalı.
 
 **SEARCH**
 
@@ -29,12 +33,13 @@ Projeye Slider eklemesi yapılmalı. Sayfa ilk açıldığında slider yapısı 
 **CARDS**
 
 ✅Anasayfaya daha fazla kart eklemeliyim.
-İçerikleri ekipteki arkadaşlar düzenleyecek.
-Her kartın sonuna daha fazla butonu koyarak ilgili makalenin farklı bir sayfada tamamen gösterimini sağlayabilirim.
+🟧İçerikleri ekipteki arkadaşlar düzenleyecek.
+✅Her kartın sonuna daha fazla butonu koyarak ilgili makalenin farklı bir sayfada tamamen gösterimini sağlayabilirim.
+✅Büyük kartların altına küçük kartlar ekleyebilirim. (9 Farklı içerik var)
 
 **SCROLL BAR**
 
-Scroll Bar'ı kaldıracağım.
+✅Scroll Bar'ı kaldıracağım.
 
 **PUSH**
 
