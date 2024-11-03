@@ -1,239 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Dijital Şiddet Farkındalık</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-	<link rel="stylesheet" href="styles.css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOREVER BLOG</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Font Awesome -->
+	<link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
-	<!--Header-->
-	<header class="bg-secondary text-white text-center p-1 text-sm">
-		<p class="fs-6 fst-italic font-monospace">
-			Hi-Kod Programı Bitirme Projem
-		</p>
-		<p class="fs-6 fst-italic font-monospace">
-			Hi-Kod Programı için kodladığım Dijital Farkındalık Konseptli Çalışma
-		</p>
-	</header>
-	<!--Navbar-->
-	<nav class="navbar navbar-expand-lg bg-dark text-light">
-		<div class="container-fluid text-light">
-			<a class="navbar-brand text-light" href="#">Hi-Kod</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation" style="background: white">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <!-- Navbar Başlangıcı -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <!-- Logo veya Başlık -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="logo" width="60">
+            </a>
+            <!-- Hamburger Menü (Mobilde Görünür) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Menüsü -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-3">
 					<li class="nav-item">
-						<a class="nav-link text-light" aria-current="page" href="#">Dijital Şiddet Nedir?</a>
+						<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-light" href="#">Dijital Şiddetin Psikolojik Etkileri</a>
+						<a class="nav-link" href="aboutus.html">ABOUT US</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="forchilderen.html">ÇOCUKLAR İÇİN BÖLÜMÜ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/yusufaytasss/mezun-projesi" target="_blank">PROJECT REPO</a>
 					</li>
 				</ul>
-			</div>
-		</div>
-	</nav>
-	<!--Slider-->
-	<div id="carouselExampleIndicators" class="carousel slide">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-				aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-				aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-				aria-label="Slide 3"></button>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./100MSDFC/hi-kod  kodluyoruz mailing-min.png" class="d-block w-100" alt="..." />
-			</div>
-			<div class="carousel-item">
-				<img src="./100MSDFC/hi-kod mailing (3).png" class="d-block w-100" alt="..." />
-			</div>
-			<div class="carousel-item">
-				<img src="./100MSDFC/hi-kod  kodluyoruz mailing-min.png" class="d-block w-100 h-100" alt="..." />
-			</div>
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-			data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-			data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
-	</div>
-	<!--Main Content-->
-	<div class="container my-5">
-		<div class="row">
-			<!-- Article Section -->
-			<div class="col-8">
-				<h2>Dijital Şiddet Nedir?</h2>
-				<p>
-					TEKNOLOJİYLE BİRLİKTE GELEN DİJİTAL ŞİDDET KAVRAMI
+				
+                <!-- Profil Simgesi veya Buton -->
+                <ul class="navbar-nav gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            <i class="bi bi-person-circle"></i> Account
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Bitişi -->
 
-					Şiddet, güç ve baskı uygulayarak insanların fiziksel veya psikolojik açıdan zarar görmesine neden
-					olan
-					bireysel veya toplu hareketlerdir. Şiddet, özel veya kamusal alanda (evde, aile bireyleri arasında,
-					sokakta,
-					iş yerinde) meydana gelebilir. Teknolojiyle beraber şiddet unsurunun yeni bir uzantısı olarak da
-					dijital
-					şiddet kavramı ortaya çıkmıştır. Kullanıcıların teknolojiyi sorunlu kullanmasından kaynaklı yeni bir
-					şiddet
-					alanı diyebiliriz. Dijital şiddet kavramının tam olarak neyi ifade ettiğine gelmeden şiddetin
-					yalnızca
-					fiziksel olmadığı bir diğer türünün de duygusal şiddet olduğunu önemle vurgulamak gerekir. Şiddet
-					deyince illa
-					birinin birine el kaldırması, vurması gerekmez. Karşımızdaki kişiye karşı ses tonumuzu yükseltmek,
-					bağırarak
-					bir şeyleri ifade etmeye çalışmak da şiddettir. Duygusal şiddete maruz kalan kişiler kendilerini
-					değersiz
-					hissederler. Üstelik zamanla gördüğü duygusal şiddetten kaynaklı kendini hep yanlış yapıyormuş, hep
-					hatalı ve
-					suçlu gibi hissedebilir. İşte karşımızdaki insanda bu denli bir değersizlik duygusu uyandırmak da
-					bir
-					psikolojik şiddettir.
+	<!-- Cards -->
+	<div class="container mt-4">
+        <div class="row">
+            <!-- Kart için 8 parça genişliğinde kolon -->
+            <div class="col-md-8">
+                <div class="card">
+                    <img src="img/photo1.jpg" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Dijital Şiddet Nedir? </h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Dijital şiddet, bilgi ve iletişim teknolojilerinin (bilgisayar, internet, sosyal medya vb.) bir kişiyi kontrol etmek, baskılamak, korkutmak, yıldırmak, aşağılamak, tehdit etmek veya hedef göstermek amacıyla kullanılmasıdır. Bu, fiziksel şiddet kadar ciddi sonuçlar doğurabilen ve psikolojik olarak derin izler bırakabilen bir durumdur.
+                            Dijital şiddet, maruz kalan kişilerde ciddi psikolojik sorunlara yol açabilir. Bu sorunlar arasında depresyon, anksiyete, özgüven eksikliği, uyku sorunları, okul veya iş hayatında başarısızlık, hatta intihar düşünceleri yer alabilir. Ayrıca, dijital şiddet mağdurları sosyal çevrelerinden uzaklaşabilir ve yalnızlık hissedebilirler.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+							<div class="d-flex align-items-center">
+								<span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+								<span class="me-3">Teknoloji, Bilim</span>
+							</div>
+							<div class="d-flex align-items-center">
+								<span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+								<span>Instagram, Twitter</span>
+							</div>
+						</div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog1.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Arama kutusu ve Kategoriler için tek kolon -->
+            <div class="col-md-4">
+                <!-- Arama Kutusu -->
+                <div class="search-container mb-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="TYPE TO SEARCH..." aria-label="Search">
+                        <span class="input-group-text bg-white"><i class="fas fa-search text-muted"></i></span>
+                    </div>
+                </div>
+                <!-- Categories -->
+                <p class="categories-title mt-5">CATEGORIES</p>  
+                <ul class="category-list">
+                    <li><a href="#">- Dijital Şiddet Nedir?</a></li>
+                    <li><a href="#">- Dijital Güvenlik</a></li>
+                    <li><a href="#">- Siber Zorbalık</a></li>
+                    <li><a href="#">- Dijital Ebeveynlik: Çocukların Güvenli ve Sağlıklı Dijital Deneyimleri İçin Rehber</a></li>
+                    <li><a href="#">- Dijital Platformlarda Davranış Kuralları</a></li>
+                    <li><a href="#">- Dijital Şiddete Karşı Yardım ve Destek Mekanizmaları</a></li>
+                    <li><a href="#">- Medya Okuryazarlığı</a></li>
+                    <li><a href="#">- Dijital Dünyanın Verdiği Zararlar</a></li>
+                    <li><a href="#">- Risk Toplumunda ki Kuşakların Yeni Şiddet Deneyimi: Dijital Şiddet</a></li>
+                </ul>
+                <!-- Tag Clouds -->
+                <p class="categories-title mt-5">TAG CLOUDS</p>
+                <ul class="custom-category-list">
+                    <li><button class="custom-category-button"># DigitalAwareness</button></li>
+                    <li><button class="custom-category-button"># CyberSafety</button></li>
+                    <li><button class="custom-category-button"># DataPrivacy</button></li>
+                    <li><button class="custom-category-button"># OnlineEthics</button></li>
+                    <li><button class="custom-category-button"># DigitalFootprint</button></li>
+                    <li><button class="custom-category-button"># InformationSecurity</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <!-- Mini Cards -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Kartlar için 4 parça genişliğinde kolon -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/photo1.jpg">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Dijital Şiddet Nedir?</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Dijital şiddet, bilgi ve iletişim teknolojilerinin (bilgisayar, internet, sosyal medya vb.) bir kişiyi kontrol etmek, baskılamak, korkutmak, yıldırmak, aşağılamak, tehdit etmek veya hedef göstermek amacıyla kullanılmasıdır.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                                <span class="me-3">Teknoloji, Bilim</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                                <span>Instagram, Twitter</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog1.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/photo13.jpg">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Dijital Güvenlik</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Dijital dünyada güvenlik, çevrimiçi varlığınızı korumanın temelidir. Güvenliğinizi sağlamanın yollarını keşfederek ve önlem almanın avantajlarını anlayarak çevrimiçi deneyiminizi  güçlendirebilirsiniz.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                                <span class="me-3">Teknoloji, Bilim</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                                <span>Instagram, Twitter</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog2.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Blog Başlığı 3</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                                <span class="me-3">Teknoloji, Bilim</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                                <span>Instagram, Twitter</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog-example.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Blog Başlığı 3</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                                <span class="me-3">Teknoloji, Bilim</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                                <span>Instagram, Twitter</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog-example.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Blog Başlığı 3</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                                <span class="me-3">Teknoloji, Bilim</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                                <span>Instagram, Twitter</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog-example.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Blog Başlığı 3</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                                <span class="me-3">Teknoloji, Bilim</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                                <span>Instagram, Twitter</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog-example.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Blog Başlığı 3</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                                <span class="me-3">Teknoloji, Bilim</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                                <span>Instagram, Twitter</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog-example.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://media.gettyimages.com/id/2172895070/photo/japanese-friends-hiking-together.jpg?s=2048x2048&w=gi&k=20&c=fYTGtBZu5IaKOO2o471rH1RM2Gy6M3sGk0awG_Dqh3k=" class="card-img-top" alt="Blog Post Image">
+                    <div class="card-body">
+                        <div class="category"><span> TEKNOLOJİ </span></div>
+                        <h5 class="card-title">Blog Başlığı 3</h5>
+                        <small class="text-muted">Admin | May 31, 2020 | 12 Düzenleme</small>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illo ducimus incidunt laborum.</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-tag"></i></span> 
+                                <span class="me-3">Teknoloji, Bilim</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="me-2"><i class="fa-solid fa-share-nodes"></i></span>
+                                <span>Instagram, Twitter</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-orange mt-3 w-100" href="blog-example.html">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
-				</p>
-        <img src="img/resim.png" alt="description" width="optional-width" height="optional-height">
-
-				<h3 style="font-weight: bold;">Dijital Şiddet Türleri</h3>
-				<ul>
-					<li style="font-weight: bold;">Israrlı Takipçilik (Stalking)</li>
-					<p>Tanıdığımız veya tanımadığımız kişiler tarafından devamlı olarak kontrol edilmemizi ifade eden
-						şiddet
-						biçimidir. Sürekli aranmak, son görülme saatlerini kontrol etmek, mesaj atarak nerede olunduğunu
-						denetlemek
-						ve kontrol sağlayabilmek için konum istemek gibi unsurla dijital şiddetin göstergeleridir.</p>
-
-				</ul>
-				<div class="col-12 col-sm-6 col-lg-4">
-					<div class="p-3 border bg-light">
-						<h3>Örnek Blog Yazısı</h3>
-						<p>Lorem ipsum dolor sit amet.</p>
-						<button class="btn btn-primary">Devamını oku</button>
-		        </div>
-			</div>
-		</div>
-	</div>
-	<!--Aside Section-->
-
-	<!--Footer-->
-	<footer class="p-5 bg-dark">
-		<div class="row">
-			<div class="col-6 col-md-2 mb-3">
-				<h5>Section</h5>
-				<ul class="nav flex-column">
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Home</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Features</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Pricing</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">FAQs</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">About</a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="col-6 col-md-2 mb-3">
-				<h5>Section</h5>
-				<ul class="nav flex-column">
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Home</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Features</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Pricing</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">FAQs</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">About</a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="col-6 col-md-2 mb-3">
-				<h5>Section</h5>
-				<ul class="nav flex-column">
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Home</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Features</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">Pricing</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">FAQs</a>
-					</li>
-					<li class="nav-item mb-2">
-						<a href="#" class="nav-link p-0 text-white">About</a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="col-md-5 offset-md-1 mb-3">
-				<form>
-					<h5 class="text-white">Subscribe to our newsletter</h5>
-					<p class="text-white">
-						Monthly digest of what's new and exciting from us.
-					</p>
-					<div class="d-flex flex-column flex-sm-row w-100 gap-2">
-						<label for="newsletter1" class="visually-hidden text-white">Email address</label>
-						<input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
-						<button class="btn btn-primary" type="button">Subscribe</button>
-					</div>
-				</form>
-			</div>
-		</div>
-
-		<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-			<p class="text-white text-center">
-				© 2024 Company, Inc. All rights reserved.
-			</p>
-			<ul class="list-unstyled d-flex">
-				<li class="ms-3">
-					<a class="link-body-emphasis" href="https://x.com/kodluyoruz?mx=2"><i
-							class="bi bi-twitter text-white fs-2"></i></a>
-				</li>
-				<li class="ms-3">
-					<a class="link-body-emphasis" href="https://www.instagram.com/kodluyoruz/"><i
-							class="bi bi-instagram text-white fs-2"></i></a>
-				</li>
-				<li class="ms-3">
-					<a class="link-body-emphasis" href="https://www.facebook.com/kodluyoruz"><i
-							class="bi bi-facebook text-white fs-2"></i></a>
-				</li>
-			</ul>
-		</div>
-	</footer>
-
-
+    <!-- Bootstrap JavaScript ve Iconlar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </body>
+</html>
 
+   <!-- Footer Başlangıcı -->
+<footer class="bg-light text-center text-lg-start mt-5">
+    
+    <div class="container p-4">
+        <div class="row">
+            <!-- Hakkında -->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5  style="color: #ff9800;" style="background-color: #eeeeee;" class="text-uppercase">About FOREVER BLOG</h5>
+                <p>
+                    Forever Blog her kesimden insanlara dijital dünya hakkında bilgilendrime amaçla kurulmuştur .
+                </p>
+            </div>
+
+           
+            <!-- Sosyal Medya Bağlantıları -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5  style="color: #ff9800;" style="background-color: #f8f7f5;" class="text-uppercase">Follow Us!</h5>
+                <ul  style="color: #ff9800;" style="background-color: #f1efeb;" class="list-unstyled">
+                    <li><a href="#"  style="color: #ff9800;"class="text-dark"><i class="fab fa-Email"></i>E-Mail</a></li>
+                    <li><a href="#"  style="color: #ff9800;"class="text-dark"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                    <li><a href="#"  style="color: #ff9800;"class="text-dark"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+
+            <!-- İletişim -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5  style="color: #ff9800;"style="background-color: #f8f7f6;" class="text-uppercase">Contact Us</h5>
+                <ul style="background-color: #f4f2f0;" class="list-unstyled">
+                    <li><i  style="color: #ff9800;" class="fa-solid fa-envelope"></i> contact@foreverblog.com</li>
+                    <li><i  style="color: #ff9800;"class="fa-solid fa-phone"></i> +90 555 555 55 55 </li>
+                    <li><i  style="color: #ff9800;"class="fa-solid fa-location-dot"></i> Ankara Elazığ Adana</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color:#ff9800;">
+        © 2024 FOREVER BLOG. All rights reserved.
+    </div>
+</footer>
+<!-- Footer Bitişi -->
+</body>
 </html>

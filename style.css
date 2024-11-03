@@ -1,41 +1,94 @@
-body {
-	background-color: #f8f9fa;
-}
-
-/* Header styling */
-header {
-	background-color: #333;
-	color: #f8f9fa;
-	padding: 10px 0;
-	text-align: center;
-}
-
 .navbar {
-	background-color: #333;
+    font-size: 1.1rem; /* Navbar linklerinin boyutu */
+}
+.navbar-nav .nav-item:not(:last-child) .nav-link {
+    margin-right: 20px; /* Aralık miktarını ihtiyaca göre ayarla */
+}
+.navbar-collapse{
+    flex-grow: 0.5 !important; /* Linklerin boş alan almasını engeller */
+}
+.navbar-brand, .nav-link {
+    font-weight: bold; /* Kalın font */
+    margin: 18px;
+}
+.nav-link:hover {
+    color: #FF6500 !important; /* Açık turuncu */
+}
+.active, span {
+    color: #FF6500 !important;
 }
 
-.carousel-inner img {
-	border-radius: 5px;
+/* Content */
+.card {
+    width: 90%; /* Kartın genişliği */
+    margin-bottom: 20px; /* Kartlar arası boşluk */
 }
-
-/* Custom Heading Styles */
-h2, h3 {
-	color: #007bff;
-	font-weight: bold;
+.card-img-top {
+    height: 300px; /* Resmin yüksekliği */
+    object-fit: cover; /* Resmin uygun şekilde kesilmesini sağlar */
 }
-
-/* Footer styling */
+.card-body {
+    padding: 35px; /* İçerik kenar boşluğu */
+    text-align: left; /* Metinleri sola hizala */
+}
+.category {
+    font-weight: bold; /* Kategori başlığını kalın yap */
+    margin-bottom: 10px; /* Kategori ve blog başlığı arasında boşluk */
+}
+.tags, .social-icons {
+    display: flex;
+    justify-content: space-between; /* İkonları yan yana ve aynı hizada yerleştir */
+    margin-top: 15px; /* Üstten boşluk */
+}
+.tags span, .social-icons a {
+    margin-right: 10px; /* İkonlar arasındaki boşluk */
+} 
+/* Footer Styling */
 footer {
-	background-color: #222;
-	color: #ffffff;
+    background-color: #f8f9fa; /* Light background */
+    color: #ff9800; /* Orange text */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+footer h5 {
+    font-weight: bold;
+    color: #ff9800; /* Orange heading text */
+    margin-bottom: 15px;
 }
 
 footer a {
-	color: #ffffff;
+    text-decoration: none;
+    color: #ff9800; /* Orange link text */
+    transition: color 0.3s;
 }
-.container .col-8 {
-	padding: 15px;
-	background-color: #ffffff;
-	border-radius: 5px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+footer a:hover {
+    color: #007bff; /* Hover effect color */
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer .text-center {
+    font-size: 0.9rem;
+    color: #ff9800; /* Orange footer text */
+}
+
+footer i {
+    margin-right: 8px;
+    color: #ff9800; /* Orange icons */
+}
+
+footer .p-3 {
+    font-size: 0.85rem;
+    color: #ff9800; /* Orange copyright text */
+    background-color: rgba(0, 0, 0, 0.05);
 }
