@@ -8,7 +8,7 @@ Dijital farkındalık konusuna dair blog yazılarının yer aldığı bu projede
 
 ## Proje Görseli
 
-
+![Uygulama Ekran Görüntüsü](https://github.com/yusufaytasss/mezun-projesi/blob/main/output.png)
 
 ### Özellikler
 
