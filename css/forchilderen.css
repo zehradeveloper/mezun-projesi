@@ -1,0 +1,109 @@
+/* Reset some default styles */
+*
+.navbar {
+    font-size: 1.1rem; /* Navbar linklerinin boyutu */
+}
+.navbar-nav .nav-item:not(:last-child) .nav-link {
+    margin-right: 20px; /* Aralık miktarını ihtiyaca göre ayarla */
+}
+.navbar-collapse{
+    flex-grow: 0.5 !important; /* Linklerin boş alan almasını engeller */
+}
+.navbar-brand, .nav-link {
+    font-weight: bold; /* Kalın font */
+    margin: 18px;
+}
+.nav-link:hover {
+    color: #FF6500 !important; /* Açık turuncu */
+}
+.active, span {
+    color: #FF6500 !important;
+}
+
+.small-image {
+    width: 50%; /* or set a specific size like 300px */
+    max-width: 50%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+    text-align: center; 
+}
+#topics img {
+    width: 150px; /* Adjust the size as needed */
+    height: auto; /* Keeps the aspect ratio */
+    margin: 0 auto;
+    display: block; /* Centers the image if it’s within a container */
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+} 
+body {
+    background-color: #ffa500; /* Orange color */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Header Styling */
+header {
+    background-color:  #ffa500;;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;.centered-parent {
+        text-align: center;
+        width: 50%; /* Adjust width as needed */
+        margin: 0 auto;
+    }
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align text in each section */
+}
+
+/* Topic Boxes */
+.topic {
+    margin: 15px 0;
+    text-align: center;
+}
+
+h2, h3 {
+    color: #0066cc;
+    text-align: center;
+}
+
+/* Interactive Section */
+#interactive iframe {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ff8c00; /* Orange background */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,67 +1,31 @@
-**ABOUT US**
+# Dijital Farkındalık Blog Sayfası
 
-✅Sayfasına ekibin isimlerini mail adreslerini görsellerini ve linkedin hesaplarını ekleyeceğim.
+Bu proje, Kodluyoruz Hi-Kod 2.0 4. Front-End Web Geliştirme Atölyesi'nin bitirme projesi olarak geliştirilmiştir. Dijital farkındalık konusunu ele alan projede, kullanıcılara bilgilendirici içerikler sunulmakta ve çocuklara yönelik Scratch ile hazırlanmış bir animasyon bulunmaktadır.
 
-**PROJECT REPO**
+## Proje İçeriği
 
-✅Projenin bulunduğu github reposunun adresini vereceğim.
+Dijital farkındalık konusuna dair blog yazılarının yer aldığı bu projede, HTML, CSS, Bootstrap ve JavaScript kullanılmıştır. Proje, çocuklara yönelik eğitici bir animasyon da içermektedir.
 
-**FOOTER**
+### Özellikler
 
-✅Projeye Footer eklenmeli. Ekipteki arkadaşlara bırakıyorum
+- **Blog Yazıları:** Dijital farkındalık ile ilgili bilgilendirici içerikler.
+- **Scratch Animasyonu:** Çocuklara dijital farkındalık kazandırmak için Scratch ile hazırlanmış bir animasyon.
+- **Responsive Tasarım:** Bootstrap ile mobil uyumlu, modern bir kullanıcı arayüzü.
 
-**LOGO**
+## Kullanılan Teknolojiler
 
-✅Beğenilen logo tasarımını projeye ekleyeceğim.
+- **HTML**
+- **CSS**
+- **Bootstrap**
+- **JavaScript**
+- **Scratch**
 
-**CATEGORİES**
+## Geliştiriciler
 
-✅Search altına hr ile çizgi çekip butonlar ile kategoriler oluşturabilirim.
+- **Yusuf AYTAŞ** - Blog tasarımı ve kodlanması (Software Engineer)
+- **İrem Ceren DAVARCI** - Blog yazılarının yazılması (Software Developer)
+- **Adalet Zehra AKIN** - Blog yazılarının yazılması ve logo tasarımı (Software Developer)
 
-✅Kategori kısmını hazırlanan içeriğie göre değiştir. (5-minutes)
+---
 
-**TAG CLOUDS**
-
-✅Proje konseptine uygun etiketler oluşturup eklemeliyim.
-
-**Slider**
-
-🟧Projeye Slider eklemesi yapılmalı. Sayfa ilk açıldığında slider yapısı ile karşılaşılmalı.
-
-**SEARCH**
-
-✅Search butonunu account.html deki gibi özelleştirebilirim.
-
-**CARDS**
-
-✅Anasayfaya daha fazla kart eklemeliyim.
-
-🟧İçerikleri ekipteki arkadaşlar düzenleyecek.
-
-✅Her kartın sonuna daha fazla butonu koyarak ilgili makalenin farklı bir sayfada tamamen gösterimini sağlayabilirim.
-
-✅Büyük kartların altına küçük kartlar ekleyebilirim. (9 Farklı içerik var)
-
-**SCROLL BAR**
-
-✅Scroll Bar'ı kaldıracağım.
-
-**PUSH**
-
-✅Kafamdaki yapıyı bitirmeye yakın github'a pushlayıp diğer arkadaşların da son dokunuşlarını yapsam iyi olacak
-
-**README.md**
-
-🟧Son olarak projenin geliştirilme amacını ve hangi fikirden ortaya çıktığını anlatan bir dokümantasyon hazırlayıp Readme.md klasörü altında paylaşmalıyız.
-
-**BLOG PAGE**
-
-✅Blog yazılarının tamamının gösterimi için örnek bir blog sayfa tasarımı yap.
-
-**EXTRA**
-
-🟧Projenin bazı yerleri türkçe bazı yerleri ingilizce oldu. Bunu düzeltmek adına istediğiniz dili seçip bütün projeyi o dile uygun şekilde düzenlemeniz gerekiyor.
-
-**DEADLİNE**
-
-*04.11.2024*
+Bu proje, dijital dünyada daha bilinçli bireyler yetiştirme amacını taşıyan bir blog platformu sunar. Destek ve katkılarınız için teşekkür ederiz!
