@@ -26,7 +26,7 @@
 
 **Slider**
 
-🟧Projeye Slider eklemesi yapılmalı. Sayfa ilk açıldığında slider yapısı ile karşılaşılmalı.
+✅Projeye Slider eklemesi yapılmalı. Sayfa ilk açıldığında slider yapısı ile karşılaşılmalı.
 
 **SEARCH**
 
@@ -36,7 +36,7 @@
 
 ✅Anasayfaya daha fazla kart eklemeliyim.
 
-🟧İçerikleri ekipteki arkadaşlar düzenleyecek.
+✅İçerikleri ekipteki arkadaşlar düzenleyecek.
 
 ✅Her kartın sonuna daha fazla butonu koyarak ilgili makalenin farklı bir sayfada tamamen gösterimini sağlayabilirim.
 
@@ -52,7 +52,7 @@
 
 **README.md**
 
-🟧Son olarak projenin geliştirilme amacını ve hangi fikirden ortaya çıktığını anlatan bir dokümantasyon hazırlayıp Readme.md klasörü altında paylaşmalıyız.
+✅Son olarak projenin geliştirilme amacını ve hangi fikirden ortaya çıktığını anlatan bir dokümantasyon hazırlayıp Readme.md klasörü altında paylaşmalıyız.
 
 **BLOG PAGE**
 
@@ -60,7 +60,7 @@
 
 **EXTRA**
 
-🟧Projenin bazı yerleri türkçe bazı yerleri ingilizce oldu. Bunu düzeltmek adına istediğiniz dili seçip bütün projeyi o dile uygun şekilde düzenlemeniz gerekiyor.
+✅Projenin bazı yerleri türkçe bazı yerleri ingilizce oldu. Bunu düzeltmek adına istediğiniz dili seçip bütün projeyi o dile uygun şekilde düzenlemeniz gerekiyor.
 
 **DEADLİNE**
 
