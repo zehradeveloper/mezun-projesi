@@ -6,6 +6,10 @@ Bu proje, Kodluyoruz Hi-Kod 2.0 4. Front-End Web Geliştirme Atölyesi'nin bitir
 
 Dijital farkındalık konusuna dair blog yazılarının yer aldığı bu projede, HTML, CSS, Bootstrap ve JavaScript kullanılmıştır. Proje, çocuklara yönelik eğitici bir animasyon da içermektedir.
 
+## Proje Görseli
+
+
+
 ### Özellikler
 
 - **Blog Yazıları:** Dijital farkındalık ile ilgili bilgilendirici içerikler.
